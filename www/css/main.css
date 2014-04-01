@@ -1,0 +1,154 @@
+@CHARSET "UTF-8";
+
+#title {
+	font-size: 70px;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: center;
+	margin-top: 40pt;
+	margin-bottom: 20pt;
+	color: #202020;
+}
+
+#animation {
+	float: right;
+	margin-right: 50pt;
+}
+
+#tape {
+	font-size: 14pt;
+	margin-top: 30pt;
+	margin-bottom: 40pt;
+	font-family: "Comics Sans MS", cursive, sans-serif;
+	color: #002222;
+	font-weight: 500;
+	width: 77.5%;
+	float: right;
+}
+
+#outer {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	left: 0;
+}
+
+#cont {
+	margin-left: auto;
+	margin-right: auto;
+	width: 880px;
+}
+
+#box1 {
+	background: #2eb82e;
+	height: 280px;
+	width: 280px;
+	float: left;
+	margin-right: 14px;
+}
+
+.box {
+	border-radius: 36px;
+	text-align: center;
+}
+
+#boxL {
+	background: #ff1919;
+	height: 280px;
+	width: 280px;
+	float: left;
+	margin-right: 14px;
+}
+
+#boxR {
+	background: #e6e616;
+	height: 280px;
+	width: 280px;
+	float: left;
+}
+
+#text {
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+	font-family: "Georgia", serif;
+}
+
+#image {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#title_schedule {
+	font-size: 70px;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: center;
+	margin-top: 20pt;
+	margin-bottom: 10pt;
+	color: #585858;
+}
+
+#line {
+	margin-bottom: 20pt;
+	width: 90%;
+}
+
+#clock {
+	vertical-align: top;
+}
+
+#form_schedule {
+	text-align: center;
+}
+
+#button {
+	width: 60%;
+	font-size: 26px;
+	margin-bottom: 10px;
+}
+
+#calendar {
+	width: 75%;
+	margin-left: 20pt;
+}
+
+#button-home {
+	width: 100px;
+	height: 30px;
+	background-color: #D8D8D8;
+	font-size: 14pt;
+	text-align: center;
+	border-radius: 8pt;
+	margin-left: 60px;
+	float: left;
+}
+
+#button-back {
+	width: 100px;
+	height: 30px;
+	background-color: #D8D8D8;
+	font-size: 14pt;
+	text-align: center;
+	border-radius: 8pt;
+	margin-left: 5px;
+	float: left;
+}
+
+#span-text {
+	line-height: 30px;
+}
+#table_results {
+	margin: 0 auto; 
+	border-collapse:collapse;
+}
+#table_results td {
+	border:1px solid black;
+}
+.green {
+	background-color: #E5FFCC;
+}
+.yellow {
+	background-color: #FFFFCC;
+}

@@ -1,0 +1,58 @@
+<?php
+if ($count == 0) {
+	$dat = "date";
+	$count ++;
+} else {
+	$dat = "tillDate";
+	$count --;
+}
+
+printf ( '<input type="text" name="%s"><a style="cursor:pointer" onClick="setYears(2013, 2100);
+showCalender(this, \'%s\');"><img src="' . $this->config->item ( 'base_url' ) . 'www/img/calender.png" style="border:0"></a>', $dat, $dat );
+?>
+<!-- Calender Script  -->
+
+<table id="calenderTable">
+	<tbody id="calenderTableHead">
+		<tr>
+			<td colspan="4" align="center"><select
+				onChange="showCalenderBody(createCalender(document.getElementById('selectYear').value, this.selectedIndex, false));"
+				id="selectMonth">
+					<option value="0">Jan</option>
+					<option value="1">Feb</option>
+					<option value="2">Mar</option>
+					<option value="3">Apr</option>
+					<option value="4">May</option>
+					<option value="5">Jun</option>
+					<option value="6">Jul</option>
+					<option value="7">Aug</option>
+					<option value="8">Sep</option>
+					<option value="9">Oct</option>
+					<option value="10">Nov</option>
+					<option value="11">Dec</option>
+			</select></td>
+			<td colspan="2" align="center"><select
+				onChange="showCalenderBody(createCalender(this.value, 
+			  document.getElementById('selectMonth').selectedIndex, false));"
+				id="selectYear">
+			</select></td>
+			<td align="center"><a href="#" onClick="closeCalender();"> <font
+					color="#003333" size="+1">x</font>
+			</a></td>
+		</tr>
+	</tbody>
+	<tbody id="calenderTableDays">
+		<tr style="">
+			<td>Sun</td>
+			<td>Mon</td>
+			<td>Tue</td>
+			<td>Wed</td>
+			<td>Thu</td>
+			<td>Fri</td>
+			<td>Sat</td>
+		</tr>
+	</tbody>
+	<tbody id="calender"></tbody>
+</table>
+
+<!-- End Calender Script  -->
